@@ -3,6 +3,4 @@ function solve(num1, operation, num2) {
     console.log(operations[operation].toFixed(2));
 }
 
-solve(25.5,
-    '-',
-    3);
+solve(25.5, '-', 3);
