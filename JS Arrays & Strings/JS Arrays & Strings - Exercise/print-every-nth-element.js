@@ -6,7 +6,6 @@ function solve(numbers, n) {
             resultArr.push(numbers[i]);
         }
     }
-    
     return resultArr;
 }
 
