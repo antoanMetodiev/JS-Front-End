@@ -1,4 +1,3 @@
-
 function solve(num, divisor) {
     let recursionResult = 1;
     function doFactoriel(currentNumber, counter) {
