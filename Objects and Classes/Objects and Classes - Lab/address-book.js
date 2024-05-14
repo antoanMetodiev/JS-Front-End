@@ -4,6 +4,7 @@ function solve(addresses) {
         let [personName, addressName] = address.split(':');
         addressesData[personName] = addressName;
     }
+    
     Object.entries(addressesData).sort((entry1, entry2) => entry1[0].localeCompare(entry2[0]))
         .forEach(([personName, address]) => console.log(`${personName} -> ${address}`));
 }
