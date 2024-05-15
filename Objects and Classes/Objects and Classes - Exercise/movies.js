@@ -28,8 +28,7 @@ function solve(input) {
     /// OUTPUT:
     // every movie need to have: (name, director, date) properties to be parsed to JSON! 
     for (const movie of movieList) {
-        if (movie.hasOwnProperty('name') && movie.hasOwnProperty('director')
-            && movie.hasOwnProperty('date')) {
+        if (movie.name && movie.director && movie.date) {
             console.log(JSON.stringify(movie));
         }
     }
