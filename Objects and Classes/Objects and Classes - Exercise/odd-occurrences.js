@@ -9,7 +9,6 @@ function solve(words) {
     Array.from(map.keys()).forEach(key => {
         if (map.get(key) % 2 != 0) result += key + ' '; 
     });
-    
     console.log(result.trim());
 }
 
