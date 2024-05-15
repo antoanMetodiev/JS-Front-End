@@ -1,6 +1,6 @@
 function solve(employeesData) {
     const employees = {};
-    employeesData.forEach(el => { employees[el] = el.length });
+    employeesData.forEach(el => employees[el] = el.length);
     Object.keys(employees).forEach(key => console.log(`Name: ${key} -- Personal Number: ${employees[key]}`));
 }
 
