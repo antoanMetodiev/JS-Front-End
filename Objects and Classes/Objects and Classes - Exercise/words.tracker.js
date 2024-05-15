@@ -3,7 +3,6 @@ function solve(input) {
     input.shift().split(' ').forEach(word => {
         map.set(word, 0);
     });
-
     input.forEach(word => {
         if (map.has(word)) map.set(word, map.get(word) + 1);
     });
