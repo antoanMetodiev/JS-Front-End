@@ -11,9 +11,7 @@ body {
     font-size: 1.3rem;
 }
 
-#accordion p {
-    margin: 1em;
-}
+#accordion p { margin: 1em; }
 
 .button {
     float: right;
@@ -26,9 +24,7 @@ body {
     letter-spacing: 3px;
 }
 
-#extra {
-    display: none;
-}
+#extra { display: none; }
 
 .head {
     background: #ccccff;
