@@ -15,6 +15,4 @@ function solve() {
   if (namingConvention.value == 'Camel Case') result.textContent = convertToCamelCase;
   else if (namingConvention.value == 'Pascal Case') result.textContent = convertToPascalCase;
   else result.textContent = 'Error!';
-
-  
 }
