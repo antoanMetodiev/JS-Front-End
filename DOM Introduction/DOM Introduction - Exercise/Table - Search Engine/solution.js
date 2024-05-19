@@ -1,6 +1,5 @@
 function solve() {
    document.querySelector('#searchBtn').addEventListener('click', onClick);
-
    function onClick() {
       let searchedText = document.getElementById('searchField');
       let trElements = document.querySelectorAll('tbody tr');
