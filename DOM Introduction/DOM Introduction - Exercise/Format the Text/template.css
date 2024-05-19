@@ -11,7 +11,8 @@ html {
     font-size: 24px;
     color: #234465;
 }
-body{
+
+body {
     background-image: url('./softuni-wallpaper-5-1920x1080.jpg');
 }
 
@@ -52,6 +53,7 @@ input[type="button"], button {
     border-bottom: 1px solid white;
     border-left: 1px solid white;
 }
+
 button:hover {
     box-shadow: 1px 1px 14px 5px green;
 }
@@ -68,14 +70,14 @@ textarea {
     outline: none;
     background-color: rgba(255,255,255,0.6);
 }
+
 textarea:focus {
     box-shadow: 1px 1px 14px 5px green;
-
 }
+
 #output p {
     border-bottom: 1px solid lightgrey;
     padding: 1%;
     word-wrap: break-word;
     color : white;
 }
-
