@@ -12,7 +12,6 @@ function solve() {
 
       let restourants = []; 
       restourantsData.forEach(restourant => {
-
          let restourantName = restourant.split(' - ')[0].trim().substring(1);
          let workersData = restourant.split(' - ')[1].split(', ');
          let isIncludes = checkAllElsHaveRestaurant(restourantName);
