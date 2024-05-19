@@ -4,6 +4,5 @@ function addItem() {
     const inputTextEl = document.getElementById('newItemText');
     createdLiEl.textContent = inputTextEl.value;
     ulElement.appendChild(createdLiEl);
-
     inputTextEl.value = '';
 }
