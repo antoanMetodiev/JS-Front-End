@@ -5,22 +5,17 @@ function solve() {
       let inputElement = document.getElementsByTagName('textarea')[0];
       let textAreaText = inputElement.value.substring(1, inputElement.value.length - 2);
 
-      let restourantsData = textAreaText.split('",');   // this is array
+      let restourantsData = textAreaText.split('",'); 
       restourantsData.map(el => {
          return el = el.substring(2);
       })
 
-      // TUK TRQBWA DA SLOJA DOPULNITELNO LOGIKA ZA AKO SE POVTARQT:
-
-      let restourants = [];  // the main collection==>>>>>
+      let restourants = []; 
       restourantsData.forEach(restourant => {
-
-         debugger;
          let restourantName = restourant.split(' - ')[0].trim().substring(1);
          let workersData = restourant.split(' - ')[1].split(', ');
          let isIncludes = checkAllElsHaveRestaurant(restourantName);
-         // console.log(isIncludes);
-         // console.log(restourantName);
+
          if (isIncludes) {
             isIncludes -= 1;
 
@@ -44,7 +39,6 @@ function solve() {
          }
       })
 
-
       // Sort Average Salary for Every Restourants:
       sortAvgSalaryForEveryRest();
 
@@ -67,6 +61,7 @@ function solve() {
          break;
       }
 
+      
       // FUNCTIONS:
       function checkAllElsHaveRestaurant(searchedName) {
          for (let i = 0; i < restourants.length; i++) {
@@ -96,8 +91,6 @@ function solve() {
             let workersInRestourant = 0;
             obj.workers.forEach(el => {
                if (el.salary.includes('"')) {
-                  // console.log('kurec');
-                  // console.log(el.salary.length);
                   el.salary = Number(el.salary.toString().substring(0, el.salary.length - 1));
                   console.log(el.salary);
                }
