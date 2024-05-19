@@ -1,7 +1,7 @@
 function generateReport() {
     let employeeInputEl = document.getElementsByTagName('input');
 
-    const data = []; // array with objects!
+    const data = []; 
     for (let i = 0; i < employeeInputEl.length; i++) {
         if (employeeInputEl[i].checked) {
             let tdElements = document.querySelectorAll(`tr td:nth-of-type(${i + 1})`);
