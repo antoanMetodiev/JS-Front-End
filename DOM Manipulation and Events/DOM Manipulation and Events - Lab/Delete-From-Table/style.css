@@ -20,9 +20,7 @@ table {
     border-radius: .25rem;
 }
 
-th {
-    border: none;
-}
+th { border: none; }
 
 thead tr:first-child {
     background: #ed1c40;
@@ -35,9 +33,7 @@ td {
     padding: 0 15px 0 20px;
 }
 
-th {
-    font-weight: 500;
-}
+th { font-weight: 500; }
 
 tbody tr:hover {
     background-color: #f2f2f2;
@@ -51,13 +47,9 @@ tbody tr:hover {
     margin-top: -4px;
 }
 
-.edit:hover {
-    color: #0a79df;
-}
+.edit:hover { color: #0a79df; }
 
-.delete:hover {
-    color: #dc2a2a;
-}
+.delete:hover {  color: #dc2a2a; }
 
 label {
     margin-left: 34%;
@@ -85,6 +77,4 @@ button {
     outline: none;
 }
 
-#result {
-    text-align: center;
-}
+#result { text-align: center; }
