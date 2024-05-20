@@ -2,7 +2,6 @@ function addItem() {
     // Add Element
     const inputTextElement = document.getElementById('newItemText');
     const ulContainerElement = document.getElementById('items');
-
     const newLiElement = document.createElement('li');
     newLiElement.textContent = inputTextElement.value;
 
