@@ -1,4 +1,4 @@
-body{
+body {
     max-width: 1100px;
     margin: auto;
 }
@@ -29,7 +29,6 @@ body{
     text-align: right;
   }
   
-  /* This is used as the traditional .clearfix class */
   .shopping-cart:before, .column-labels:before, .product:before, .shopping-cart:after, .column-labels:after, .product:after {
     content: '';
     display: table;
@@ -43,13 +42,10 @@ body{
     zoom: 1;
   }
   
-  /* Apply clearfix in a few places */
-  /* Apply dollar signs */
   .product .product-line-price:before {
     content: '$';
   }
-  
-  /* Body/Header stuff */
+
   body {
     padding: 0px 30px 30px 20px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -68,36 +64,40 @@ body{
     margin-top: -45px;
   }
   
-  /* Column headers */
   .column-labels label {
     padding-bottom: 15px;
     margin-bottom: 15px;
     border-bottom: 1px solid #eee;
   }
+
   .column-labels .product-image, .column-labels .product-details, .column-labels .product-add {
     text-indent: -9999px;
   }
   
-  /* Product entries */
   .product {
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #eee;
   }
+
   .product .product-image {
     text-align: center;
   }
+
   .product .product-image img {
     width: 100px;
   }
+
   .product .product-details .product-title {
     margin-right: 20px;
     font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
   }
+
   .product .product-details .product-description {
     margin: 5px 20px 5px 0;
     line-height: 1.4em;
   }
+
   .product .add-product {
     border: 0;
     padding: 4px 8px;
@@ -107,12 +107,11 @@ body{
     font-size: 12px;
     border-radius: 3px;
   }
+
   .product .add-product:hover {
     background-color: green;
   }
-  
-  /* Totals section */
-  
+
   .checkout {
     float: right;
     border: 0;
@@ -128,7 +127,6 @@ body{
     background-color: #494;
   }
   
-  /* Make adjustments for tablet */
   @media screen and (max-width: 650px) {
     .shopping-cart {
       margin: 0;
@@ -195,6 +193,4 @@ body{
     .product .product-line-price:before {
       content: 'Item Total: $';
     }
-    
   }
-  
