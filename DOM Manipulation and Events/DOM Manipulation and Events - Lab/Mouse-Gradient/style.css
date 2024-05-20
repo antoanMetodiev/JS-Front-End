@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai');
 
-body {
-    font-family: 'Baloo Bhai', cursive;
-}
+body { font-family: 'Baloo Bhai', cursive; }
 
 #gradient-box {
     width: 300px;
     border: 2px solid lightgrey;
 }
 
-#gradient-box:hover {
-    border: 2px solid black;
-}
+#gradient-box:hover { border: 2px solid black; }
 
 #gradient {
     height: 30px;
