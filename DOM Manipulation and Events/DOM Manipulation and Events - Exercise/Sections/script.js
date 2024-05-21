@@ -1,5 +1,5 @@
 function create(words) {
-   const divContainerElement = document.getElementById('content');
+   const fragmentContainer = document.createDocumentFragment();
    words.forEach(word => {
       const createdDivElement = document.createElement('div');
       const createdParagraphEl = document.createElement('p');
@@ -8,9 +8,10 @@ function create(words) {
 
       createdDivElement.appendChild(createdParagraphEl);
       createdDivElement.onclick = onClick;
-      divContainerElement.appendChild(createdDivElement);
+      fragmentContainer.appendChild(createdDivElement);
    });
 
+   document.getElementById('content').appendChild(fragmentContainer);
    function onClick(event) {
       event.target.children[0].style.display = 'block';
    }
