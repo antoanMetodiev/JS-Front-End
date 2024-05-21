@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html{
     font-family: "PT sans", sans-serif;
     font-size: 24px;
     color: #234465;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -18,12 +21,13 @@ body{
     flex-wrap: wrap;
 }
 
-#exercise{   
+#exercise {   
     width: 70%;
     float: left;
     padding: 1rem 0 1rem 1rem;
 }
-main:after{
+
+main:after {
     display: block;
     content:'';
     clear: both;
@@ -40,7 +44,7 @@ input[type="button"], button{
     outline: none;
 }
 
-.profile{
+.profile {
     border:2px solid black;
     display: inline-block;
     margin-left: 12%;
@@ -48,22 +52,21 @@ input[type="button"], button{
     vertical-align: top;
 }
 
-.userIcon{
+.userIcon {
     width: 99%;
     height: auto;
     margin: 0 auto;
 }
 
-input[name="user3Username"], input[name="user2Username"], input[name="user1Username"]{
+input[name="user3Username"], input[name="user2Username"], input[name="user1Username"] {
     display: inline-block;
     width: 100%;
 }
 
-#user1HiddenFields input, #user2HiddenFields input, #user3HiddenFields input{
+#user1HiddenFields input, #user2HiddenFields input, #user3HiddenFields input {
 	width: 100%;
 }
 
-#user1HiddenFields, #user2HiddenFields, #user3HiddenFields{
+#user1HiddenFields, #user2HiddenFields, #user3HiddenFields {
     display: none;
 }
-
