@@ -5,7 +5,6 @@ function attachEventsListeners() {
 
     for (let i = 0; i < allInputElements.length; i++) {
         if (i % 2 == 0) textInputEls.push(allInputElements[i]);
-
         else allInputElements[i].addEventListener('click', (event) => {
             const placeOfCall = event.target.parentElement.getElementsByTagName('label')[0].textContent.split(': ')[0].toLowerCase();
 
