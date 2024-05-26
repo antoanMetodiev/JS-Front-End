@@ -5,7 +5,6 @@ function attachEvents() {
 
     const selectElContainer = document.getElementById('posts');
     const promisePost = fetch(postUrl);
-
     document.getElementById('btnLoadPosts').addEventListener('click', () => {
         promisePost
             .then(resolve => resolve.json())
@@ -36,7 +35,6 @@ function attachEvents() {
                         document.getElementById('post-body').textContent = data.body;
                     })
                     .catch(() => console.log('error!'));
-
 
                 fetch(`http://localhost:3030/jsonstore/blog/comments`)
                     .then(resolve => resolve.json())
