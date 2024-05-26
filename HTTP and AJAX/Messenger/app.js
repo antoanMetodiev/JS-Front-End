@@ -15,7 +15,7 @@ function attachEvents() {
                 content: inputMessage.value,
             }),
         })
-            .catch(() => console.log('POST REQUEST IS NOT HAPPENED!'))
+        .catch(() => console.log('POST REQUEST IS NOT HAPPENED!'))
         inputName.value = '';
         inputMessage.value = '';
     });
