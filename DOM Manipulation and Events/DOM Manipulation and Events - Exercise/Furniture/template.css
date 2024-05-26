@@ -1,14 +1,13 @@
-body{
+body {
   background:#eaeaea;
   text-align: center;
 }
 
 #exercise {
-display: inline-block;
-padding: 1rem 0 1rem 1rem;
-
-
+  display: inline-block;
+  padding: 1rem 0 1rem 1rem;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -29,17 +28,17 @@ padding: 1rem 0 1rem 1rem;
   margin-bottom:48px;
 }
 
-.wrapper table{
+.wrapper table {
   margin-top:24px;
   vertical-align: center;
 }
 
-.wrapper table img{
+.wrapper table img {
   max-width:80px;
   max-height:80px;
 }
 
-.wrapper table td{
+.wrapper table td {
   vertical-align:middle;
 }
 
