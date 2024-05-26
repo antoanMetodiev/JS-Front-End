@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-input[type=text] {
 
+input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -23,6 +23,6 @@ button:hover {
   background-color: #45a049;
 }
 
-body{
+body {
    font-family: 'Open Sans',serif;
 }
