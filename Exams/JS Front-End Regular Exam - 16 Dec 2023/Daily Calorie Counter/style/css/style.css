@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
 body {
   display: flex;
   text-align: center;
@@ -71,12 +72,14 @@ label {
   color: rgb(0, 0, 0);
   font-weight: bold;
 }
+
 #form-buttons {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
 }
+
 #form #add-meal,
 #edit-meal {
   background: rgb(156, 150, 235);
