@@ -129,4 +129,3 @@ function onClick(event) {
         currentMeal.remove();
     }
 }
-
