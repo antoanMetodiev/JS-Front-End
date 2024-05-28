@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap");
+
 @font-face {
   font-family: "christmas";
   src: url("../css/MerryChristmasFlake.ttf") format("truetype");
@@ -72,6 +73,7 @@ font-family: "Mountains of Christmas", serif;
   font-weight: bold;
   font-size: 22px;
 }
+
 #btn-container {
   display: flex;
   justify-content: center;
