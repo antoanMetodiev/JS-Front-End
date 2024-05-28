@@ -97,7 +97,6 @@ function onClick(event) {
         inputPrice.value = pElements[2].textContent;
 
         giftElement.remove();
-
         const editPresentButton = document.getElementById('edit-present');
         editPresentButton.removeAttribute('disabled');
         addButtonEl.setAttribute('disabled', true);
