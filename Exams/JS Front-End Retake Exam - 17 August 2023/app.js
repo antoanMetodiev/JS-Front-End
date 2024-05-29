@@ -105,7 +105,6 @@ editButtonEl.addEventListener('click', () => {
 
 async function executeRequests(event) {
     const townElement = event.target.parentElement.parentElement;
-
     if (event.target.textContent === 'Change') {
         currentTownId = event.target.value;
         const townData = townElement.children;
