@@ -1,4 +1,3 @@
-
 body {
     display: flex;
     text-align: center;
@@ -82,7 +81,6 @@ label {
     font-size: 14.5px;
 }
 
-
 #form form .form-field {
     display: flex;
     flex-flow: column nowrap;
@@ -117,7 +115,6 @@ label {
 #form #add-vacation:disabled {
     background-color: #bbbbbb;
 }
-
 
 #form #add-vacation:hover {
     background: transparent;
@@ -274,4 +271,3 @@ button:disabled {
     /* Additional styling for the disabled button on hover */
     /* Define any styles you want to apply when the button is disabled and hovered */
   }
-  
