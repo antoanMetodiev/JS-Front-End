@@ -52,7 +52,6 @@ async function loadVacations() {
 
 // ADD Operation (POST Request):
 const addVacationButton = document.getElementById('add-vacation');
-
 async function clearInputs() {
     inputNameEl.value = ''; inputDaysEl.value = ''; inputDateEl.value = '';
 }
@@ -98,7 +97,6 @@ editVacationEl.addEventListener('click', () => {
 
 async function executeRequests(event) {
     const vacationEl = event.target.parentElement;
-
     if (event.target.textContent === 'Change') {
         currentVacationPlanId = event.target.value;
         const vacationData = vacationEl.children;
